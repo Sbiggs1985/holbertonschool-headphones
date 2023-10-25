@@ -23,12 +23,19 @@ body, html {
 }
 
 .my-navigation {
+    display: flex;
     margin-right: 25px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     color:#fff;
-    padding: 10px;
+    padding: 0px;
+}
+
+.my-navigation-item {
+    flex: 1;
+    margin: 10px;
+    
 }
 
 /* GREAT! */
@@ -69,6 +76,7 @@ body, html {
 .paragraph2 {
     padding: 0 400px;
 }
+
 
 
 
@@ -176,7 +184,7 @@ body, html {
 .section4 {
     background: #FFF;
     width: auto;
-    height: 900px;
+    height: 700px;
 }
 
 .section4-h2 {
@@ -193,6 +201,8 @@ body, html {
     width: 162px;
     height: 44px;
 }
+
+
 
 
 
