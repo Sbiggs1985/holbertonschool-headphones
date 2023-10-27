@@ -1,1 +1,236 @@
+* {
+    box-sizing: border-box;
+}
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    background-size: cover;
+    Background-repeat: no-repeat;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section1-container {
+    background-image: url('images/Main-headphones-image.png');
+    background-size: cover;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+.my-navigation {
+    display: flex;
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color:#fff;
+    padding: 0px;
+}
+
+.my-navigation-item {
+    flex: 1;
+    margin: 10px;
+    
+}
+
+/* GREAT! */
+.logo {
+    position: relative;
+    left: 160px;
+    margin-top: 30px;
+}
+
+.button-one {
+    border-radius: 22px;
+    background: #FF6565;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+
+.top-section1 {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    height: 32vh;
+    margin-top: 15vh;
+}
+
+.top-section1 h1 {
+    margin: 0;
+
+}
+
+.top-section1 p {
+    margin-bottom: 40px;
+}
+
+.paragraph2 {
+    padding: 0 400px;
+}
+
+
+
+
+
+/* SECOND SECTION */
+.section2 {
+    width: auto;
+    height: 900px;
+    padding-top: 170px;
+    justify-content: center;
+    text-align: center;
+}
+
+.section2-paragraph {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.h2-section2 {
+    color: #071629;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.item {
+    margin-top: 80px;
+}
+
+.whatwedo-text {
+    text-align:center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.image {
+    width: 60px;
+    height: auto;
+    fill: #FF6565;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+/* SECTION THREE */
+.third-section {
+    color: #FFF;
+    width: auto;
+    height: 650px;
+    background: darkblue;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.section3-h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding: 10px;
+}
+
+.row2-items {
+    margin-right: 80px;
+}
+
+.section3-img {
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+}
+
+
+
+/* ---------------------------*/
+/*SECTION4*/
+.section4 {
+    background: #FFF;
+    width: auto;
+    height: 700px;
+}
+
+.section4-h2 {
+    text-align: center;
+}
+
+.section4-paragraph {
+    text-align: center;
+}
+
+.button-one {
+    border-radius: 22px;
+    background: #FF6565;
+    width: 162px;
+    height: 44px;
+}
+
+
+
+
+
+
+
+.footer {
+    width: auto;
+    height: 249px;
+    flex-shrink: 0;
+    background: #071629;
+}
+
+.copy {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.footer-logo {
+    margin-top: 100px;
+}
+
+.social-media-image {
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}
